@@ -1,0 +1,27 @@
+@font-face {
+    font-family: quickSandBold;
+    src: url(/Quicksand-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: quickSandNormal;
+    src: url(/Quicksand-Regular.ttf);
+  }
+
+body {margin: 0px; padding: 0px;font-family: quickSandBold;}
+
+.warning {display: none;margin-left: 100px;;}
+
+/*-----------------------------------------------------------------------Navigation---------------------------------------------------------------------*/
+
+.logo-container {margin: auto; width: 412px;margin-top: 0px;}
+
+.left {float: left;}
+.right
+ {float: right;}
+
+/*------------------------------------------------------------------------Buttons-----------------------------------------------------------------------*/
+
+.buttons > button {color: #6E6E6E;font-family: quickSandBold;border: none; background-color: transparent; height: 69px;font-size: 32px;padding-left: 15px; padding-right: 15px;border-radius: 50px;}
+
+.buttons > button:focus {outline: none; border: solid; ;}
