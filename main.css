@@ -31,7 +31,7 @@ body {margin: 0px; padding: 0px;font-family: quickSandBold;}
 button:hover {cursor: pointer;}
 
 /*--------------------------------------------------------------------Main Navigation--------------------------------------------------------------------*/
-.item-container {margin: auto; width: 714px;margin-top: 20vh;}
+.item-container {margin: auto; width: 714px;margin-top: 15vh;}
 
 .item-container > img:hover {cursor: text;}
 
