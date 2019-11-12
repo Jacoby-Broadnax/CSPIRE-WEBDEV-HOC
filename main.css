@@ -10,7 +10,7 @@
 
 body {margin: 0px; padding: 0px;font-family: quickSandBold;}
 
-.warning {display: none;margin-left: 100px;;}
+.warning {display: none;width: 100%; text-align: center;}
 
 /*-----------------------------------------------------------------------Navigation---------------------------------------------------------------------*/
 
@@ -30,7 +30,20 @@ body {margin: 0px; padding: 0px;font-family: quickSandBold;}
 
 button:hover {cursor: pointer;}
 
+/*----------------------------------------------------------------------Navigation---------------------------------------------------------------------*/
+
+#paragraph {display: none;}
+
+#paragraph:target {display: block;}
+
+#image {display: none;}
+
+#image:target {display: block;;}
+
 /*--------------------------------------------------------------------Main Navigation--------------------------------------------------------------------*/
+
+
+
 .item-container {margin: auto; width: 714px;margin-top: 15vh;}
 
 .item-container > img:hover {cursor: text;}
@@ -41,3 +54,14 @@ button:hover {cursor: pointer;}
 
 .item-container > img {border-top: solid 3px lightgray;padding-top: 20px;;}
 
+.bottom-navigation > a > button {font-size: 20px;padding:10px;background-color: transparent; border: none;border-radius: 50px;font-family: quickSandBold;transition: 0.2s ease;;}
+
+.bottom-navigation > a > button:focus {outline:none; border: solid 3px #707070;color: #707070;}
+
+.bottom-navigation > a > button:hover {outline:none; border: solid 3px #707070;color: #707070;margin-bottom: -2px;margin-left: 0px;;}
+
+.bottom-navigation {margin: auto; width: 340px;;}
+
+.bottom-nav-wrapper {position: fixed; bottom: 15px; width: 100%;;}
+
+.cover {margin-top: -350px;background-color: white;position: relative; z-index: 150;}

@@ -8,7 +8,7 @@
     </head>
     <body>
         <nav>
-           <a href="" class="buttons left"><button>UPLOAD IMAGE</button></a>
+           <a href="" class="buttons left"><button></button></a>
            <div class="logo-container">
                <img src="branding/WEBDEV.svg">
            </div>
@@ -17,18 +17,30 @@
 
         <div class="viewer" id="html">
             <div class="view-container">
-                <div class="item-container" id="">
-                <h5>HTML</h5>
-                <h1>HEADING</h1>
-                <img ondrag="dragged()" src="assets/H1-example.png">         
+                <div class="item-container" id="heading">
+                <h5 class="vivify fadeIn">HTML</h5>
+                <h1 class="vivify fadeIn delay-100">HEADING</h1>
+                <img class="vivify fadeIn delay-200" ondrag="dragged()" src="assets/H1-example.png">         
+            </div>
+            <div class="item-container cover" style="width: 800px;" id="paragraph">
+                <h5 class="vivify fadeIn">HTML</h5>
+                <h1 class="vivify fadeIn delay-100">PARAGRAPH</h1>
+                <img class="vivify fadeIn delay-200" style="margin-left: 60px;;" ondrag="dragged()" src="assets/P example.svg">         
+            </div>
+            <div class="item-container cover " id="image">
+                <h5 class="vivify fadeIn">HTML</h5>
+                <h1 class="vivify fadeIn delay-100">IMAGE</h1>
+                <img class="vivify fadeIn delay-200" ondrag="dragged()" src="assets/img example.svg">         
             </div>
             </div>
             <h3 class="warning vivify fadeIn">Lol, no copying poopy head ;)</h3>
+            <div class="bottom-nav-wrapper">
             <div class="bottom-navigation">
-                <a href=""><button>Heading</button></a>
-                <a href=""><button>Paragraph</button></a>
-                <a href=""><button>Images</button></a>
+                <a href="#"><button class="vivify fadeIn delay-300" autofocus>Heading</button></a>
+                <a href="#paragraph"><button class="vivify fadeIn delay-400">Paragraph</button></a>
+                <a href="#image"><button class="vivify fadeIn delay-500">Images</button></a>
             </div>
+        </div>
         </div>
 
         <script>
