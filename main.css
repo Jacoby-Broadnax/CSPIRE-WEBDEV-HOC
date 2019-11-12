@@ -16,16 +16,28 @@ body {margin: 0px; padding: 0px;font-family: quickSandBold;}
 
 .logo-container {margin: auto; width: 412px;margin-top: 0px;}
 
-.left {float: left;}
+.left {float: left;margin-top: 15px;margin-left: 20px;;}
 .right
- {float: right;}
+ {float: right;margin-top: -110px;margin-right: 20px;;}
 
 /*------------------------------------------------------------------------Buttons-----------------------------------------------------------------------*/
 
-.buttons > button {color: #6E6E6E;font-family: quickSandBold;border: none; background-color: transparent; height: 69px;font-size: 32px;padding-left: 15px; padding-right: 15px;border-radius: 50px;}
+.buttons > button {color: #6E6E6E;font-family: quickSandBold;border: none; background-color: transparent; height: 69px;font-size: 32px;padding-left: 15px; padding-right: 15px;border-radius: 50px;transition: 0.2s ease;}
 
 .buttons > button:focus {outline: none; border: solid; ;}
 
+.buttons > button:hover {background-color: rgb(233, 233, 233);}
+
+button:hover {cursor: pointer;}
+
 /*--------------------------------------------------------------------Main Navigation--------------------------------------------------------------------*/
+.item-container {margin: auto; width: 714px;margin-top: 20vh;}
 
 .item-container > img:hover {cursor: text;}
+
+.item-container > h5 {font-size: 41px;color: #6E6E6E;text-align: center;}
+
+.item-container > h1 {font-size: 141px;color: #ADADAD;text-align: center;margin-top: -90px;margin-bottom: 0px;}
+
+.item-container > img {border-top: solid 3px lightgray;padding-top: 20px;;}
+
