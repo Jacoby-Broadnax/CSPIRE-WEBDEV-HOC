@@ -25,3 +25,7 @@ body {margin: 0px; padding: 0px;font-family: quickSandBold;}
 .buttons > button {color: #6E6E6E;font-family: quickSandBold;border: none; background-color: transparent; height: 69px;font-size: 32px;padding-left: 15px; padding-right: 15px;border-radius: 50px;}
 
 .buttons > button:focus {outline: none; border: solid; ;}
+
+/*--------------------------------------------------------------------Main Navigation--------------------------------------------------------------------*/
+
+.item-container > img:hover {cursor: text;}
