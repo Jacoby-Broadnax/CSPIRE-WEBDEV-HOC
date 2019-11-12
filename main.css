@@ -12,6 +12,10 @@ body {margin: 0px; padding: 0px;font-family: quickSandBold;}
 
 .warning {display: none;width: 100%; text-align: center;}
 
+.warning > button {border: none; background-color: white; border: solid 2px black;font-family: quickSandBold;padding: 4px; border-radius:20px;padding-left: 2px; padding-right: 2px; ;}
+
+.warning > button:hover {background-color: black; color: white; ;}
+
 /*-----------------------------------------------------------------------Navigation---------------------------------------------------------------------*/
 
 .logo-container {margin: auto; width: 412px;margin-top: 0px;}
