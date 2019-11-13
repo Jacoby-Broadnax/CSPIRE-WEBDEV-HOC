@@ -1,40 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Web Development | Hour Of Code</title>
-        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hour Of Code | File Upload</title>
+        <link rel="stylesheet" href="/mobilemain.css">
         <link rel="stylesheet" href="vivify.min.css">
         <link rel="shortcut icon" href="Branding/favicon.png">
     </head>
     <body>
-        <nav>
-           <a href="" class="buttons left"><button>UPLOAD IMAGE</button></a>
+        <nav>  
            <div class="logo-container">
                <img src="branding/WEBDEV.svg">
-           </div>
-           <a href="" class="buttons right"><button>SWITCH TO <strong style="color: black;">CSS</strong></button></a>
+           </div>        
         </nav>
-
-        <div class="viewer" id="html">
-            <div class="view-container">
-                <div class="item-container" id="">
-                <h5>HTML</h5>
-                <h1>HEADING</h1>
-                <img ondrag="dragged()" src="assets/H1-example.png">         
-            </div>
-            </div>
-            <h3 class="warning vivify fadeIn">Lol, no copying poopy head ;)</h3>
-            <div class="bottom-navigation">
-                <a href=""><button autofocus>Heading</button></a>
-                <a href=""><button>Paragraph</button></a>
-                <a href=""><button>Images</button></a>
-            </div>
-        </div>
-
-        <script>
-        function dragged(){
-document.getElementsByClassName("warning")[0].style.display="block"
-        }
-        </script>
+<div class="form-container">
+   <form class="upload-form">
+<label>Image Uploader</label>
+<br>
+<input>
+<br>
+<textarea style="display: none;"></textarea>
+<script async src="https://imgbb.com/upload.js"></script>
+<input>
+   </form>
+</div>
+    
     </body>
 </html>
