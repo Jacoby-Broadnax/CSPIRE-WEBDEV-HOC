@@ -33,7 +33,7 @@ form>input {
 
 .image-container {display: inline-block; margin-left: 5px;;}
 
-.image-container > a > img {width: 100px ;height:100px; object-fit: cover; border-radius: 7px;border: solid 1px lightgray;;}
+.image-container > a > img {width: 100px ;height:100px; object-fit: cover; border:solid 1px lightgray;border-radius: 7px;}
 
 #success {text-align: center;;}
 
@@ -57,4 +57,4 @@ textarea:valid {background-color: green;;}
 
 .imgbb-container {display: block !important;}
 
-.name { border: solid; border-color: lightgray; border-width: 1px;height: 35px;padding-left: 10px;; width: 280px;border-radius: 2px;margin-bottom: -5px;text-align: center;;}
+.name { border: solid; border-color: lightgray; border-width: 1px;height: 35px;padding-left: 10px;; width: 280px;border-radius: 2px;margin-bottom: -5px;;}
