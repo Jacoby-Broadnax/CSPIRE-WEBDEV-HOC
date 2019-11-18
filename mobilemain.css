@@ -29,9 +29,15 @@ form>input {
   ;
 }
 
+#viewer {overflow: scroll; white-space: nowrap;;}
 
+.image-container {display: inline-block; margin-left: 5px;;}
 
-.logo-container {margin-top: 30vh;}
+.image-container > a > img {width: 100px ;height:100px; object-fit: cover; border-radius: 7px;border: solid 1px lightgray;;}
+
+#success {text-align: center;;}
+
+.logo-container {margin-top: 25vh;}
 
 .confirm-button {height: 35px;background-color: lightgray; border: none;border-radius: 2px;margin-top: 5px ;}
 
@@ -51,4 +57,4 @@ textarea:valid {background-color: green;;}
 
 .imgbb-container {display: block !important;}
 
-.name { border: solid; border-color: lightgray; border-width: 1px;height: 35px;padding-left: 10px;; width: 280px;border-radius: 2px;margin-bottom: -5px;;}
+.name { border: solid; border-color: lightgray; border-width: 1px;height: 35px;padding-left: 10px;; width: 280px;border-radius: 2px;margin-bottom: -5px;text-align: center;;}

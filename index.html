@@ -8,6 +8,27 @@
         <link rel="shortcut icon" href="Branding/favicon.png">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        </script>
+         <script type="text/javascript">
+            $(document).ready(function () {
+                $.getJSON('https://v2-api.sheety.co/1c0174d5b32dbebdf6f1e14d6ba67a4f/cspire/sheet1', function (data) {
+                    var template = Handlebars.compile($('#item-template').html())
+                    $('#viewer').html(template(data.sheet1))
+                })
+            })
+        </script>
+        <script id="item-template" type="text/x-handlebars-template">
+    
+            {{#each this}}
+            <div class="image-container">
+               {{{imageUrl}}}    
+            </div>    
+            {{/each}}
+        
+        </script>
+    
     </head>
     <body>
         <nav>  
@@ -48,10 +69,11 @@
         <input class="confirm-button" type="submit" value="Confirm">
         <script async src="https://imgbb.com/upload.js" data-auto-insert="html-embed-medium"></script>
     </form>
-
-    <div id="success" style="display: none;">
-        Great! That Was A Success. Refresh To Make Another Upload
+    <div id="success" style="display: block;">
+       <h2>Upload Complete</h2>
     </div>
+    <h4 style="text-align: center;">Check Out Some Of The Other Uploads</h4>
+    <div id="viewer"></div>
 </div>
     
     </body>
