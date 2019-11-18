@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="714" height="43" viewBox="0 0 714 43">
+  <defs>
+    <clipPath id="clip-img_example">
+      <rect width="714" height="43"/>
+    </clipPath>
+  </defs>
+  <g id="img_example" data-name="img example" clip-path="url(#clip-img_example)">
+    <rect width="714" height="43" fill="#fff"/>
+    <text id="_img_src_" data-name="&lt;img src=&quot;                                   &quot;&gt; " transform="translate(-7)" fill="#6e6e6e" font-size="32" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="104.056" y="32" xml:space="preserve">&lt;img src=&quot;                                   &quot;&gt; </tspan></text>
+    <text id="Link_to_your_Image_Here" data-name="Link to your Image Here" transform="translate(258 7)" fill="#888" font-size="23" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="6.242" y="23">LINK TO YOUR IMAGE HERE</tspan></text>
+  </g>
+</svg>

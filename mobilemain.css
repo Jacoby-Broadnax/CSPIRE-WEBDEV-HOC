@@ -1,20 +1,48 @@
 @font-face {
-    font-family: quickSandBold;
-    src: url(/Quicksand-Bold.ttf);
-  }
+  font-family: quickSandBold;
+  src: url(/Quicksand-Bold.ttf);
+}
 
-  @font-face {
-    font-family: quickSandNormal;
-    src: url(/Quicksand-Regular.ttf);
-  }
+@font-face {
+  font-family: quickSandNormal;
+  src: url(/Quicksand-Regular.ttf);
+}
 
-body {margin: 0px; padding: 0px;font-family: quickSandBold;}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: quickSandBold;
+}
 
-form {margin: auto; width: 290px;}
+form {
+  margin: auto;
+  width: 290px;
+}
 
-form > input {width: 100%;;}
+form>input {
+  width: 100%;
+  padding:0px;
+}
 
+.logo-container>img {
+  width: 100%;
+  ;
+}
 
+.confirm-button {height: 35px;background-color: lightgray; border: none;border-radius: 2px;margin-top: 5px ;}
 
-.imgbb-button {background: white !important;border: solid;width: 290px !important;height: 40px;;border: solid 1px lightgray !important ;}
+textarea {transition: 0.2s ease;transition-delay: 1s;width: 100%;padding: 0px;border: none;;}
 
+textarea:valid {background-color: green;;}
+
+.imgbb-button {
+  background: white !important;
+  border: solid;
+  width:100%!important;
+  height: 40px;
+  ;
+  border: solid 1px lightgray !important;
+  margin-top: -65px;;
+}
+
+.imgbb-container {display: block !important;}
