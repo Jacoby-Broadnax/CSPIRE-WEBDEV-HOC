@@ -31,7 +31,7 @@ form>input {
 
 .confirm-button {height: 35px;background-color: lightgray; border: none;border-radius: 2px;margin-top: 5px ;}
 
-textarea {transition: 0.2s ease;transition-delay: 1s;width: 100%;padding: 0px;border: none;;}
+textarea {transition: 0.2s ease;transition-delay: 1s;padding: 0px;border: none;width: 100%;height:2px;;;}
 
 textarea:valid {background-color: green;;}
 
