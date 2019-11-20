@@ -1,0 +1,14 @@
+@font-face {
+    font-family: quickSandBold;
+    src: url(/Quicksand-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: quickSandNormal;
+    src: url(/Quicksand-Regular.ttf);
+  }
+
+body {margin: 0px; padding: 0px;font-family: quickSandBold;}
+
+.imgbb-button {background: white !important;border: solid;width: 290px;}
+
