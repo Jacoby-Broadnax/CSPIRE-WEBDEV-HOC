@@ -73,3 +73,7 @@ button:hover {cursor: pointer;}
 .bottom-nav-wrapper {position: fixed; bottom: 15px; width: 100%;;}
 
 .cover {margin-top: -350px;background-color: white;position: relative; z-index: 150;}
+
+/*---------------------------------------------------------------Footer--------------------------------------------------------------------------------*/
+
+footer > a {position: absolute; right:5px; bottom: 5px;color: black;}
