@@ -66,11 +66,11 @@ button:hover {cursor: pointer;}
 
 .item-container > img {border-top: solid 3px lightgray;padding-top: 20px;;}
 
-.bottom-navigation > a > button {font-size: 20px;padding:10px;background-color: transparent; border: none;border-radius: 50px;font-family: quickSandBold;transition: 0.2s ease;;}
+.bottom-navigation > a > button {font-size: 20px;padding:10px;background-color: transparent; border: none;border-radius: 50px;font-family: quickSandBold;transition: 0.2s ease;border: solid 3px white;}
 
-.bottom-navigation > a > button:focus {outline:none; border: solid 3px #707070;color: #707070;}
+.bottom-navigation > a > button:focus {outline:none; border: solid 3px #707070;color: #707070;;}
 
-.bottom-navigation > a > button:hover {outline:none; border: solid 3px #707070;color: #707070;margin-bottom: -2px;margin-left: 0px;;}
+.bottom-navigation > a > button:hover {outline:none; border: solid 3px #707070;color: #707070;margin-bottom: -2px;margin-left: 0px;}
 
 .bottom-navigation {margin: auto; width: 420px;;}
 
@@ -81,3 +81,18 @@ button:hover {cursor: pointer;}
 /*---------------------------------------------------------------Footer--------------------------------------------------------------------------------*/
 
 footer > a {position: absolute; right:5px; bottom: 5px;color: black;}
+
+
+/*--------------------------------------------------------------QR Code--------------------------------------------------------*/
+
+.qr-code-container > img {width: 400px; }
+
+.qr-code-container {margin: auto; width: 400px;margin-top: 15vh}
+
+.qr-button {width: 30px;position: fixed; bottom: 25px;left: 25px;transition: 0.15s ease; }
+
+.qr-button:hover {cursor: pointer; width: 36px; }
+
+#qr {display: none}
+
+.qr {display: none}
