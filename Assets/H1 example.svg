@@ -5,7 +5,6 @@
     </clipPath>
   </defs>
   <g id="H1_example" data-name="H1 example" clip-path="url(#clip-H1_example)">
-    <rect width="714" height="43" fill="#fff"/>
     <text id="_h1_h1_" data-name="&lt;h1&gt;                                                    &lt;/h1&gt; " fill="#6e6e6e" font-size="32" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="50.952" y="32" xml:space="preserve">&lt;h1&gt;                                                    &lt;/h1&gt; </tspan></text>
     <text id="THIS_IS_WHERE_YOUR_TEXT_SHOULD_BE" data-name="THIS IS WHERE YOUR TEXT SHOULD BE" transform="translate(113 6)" fill="#888" font-size="23" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="20.421" y="23">THIS IS WHERE YOUR TEXT SHOULD BE</tspan></text>
   </g>

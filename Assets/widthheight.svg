@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="714" height="43" viewBox="0 0 714 43">
+  <defs>
+    <clipPath id="clip-widthheight">
+      <rect width="714" height="43"/>
+    </clipPath>
+  </defs>
+  <g id="widthheight" clip-path="url(#clip-widthheight)">
+    <g id="Group_4" data-name="Group 4" transform="translate(-2110 -2465)">
+      <text id="width:" transform="translate(2267 2465)" fill="#6e6e6e" font-size="32" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="32">width:</tspan></text>
+      <text id="_" data-name=";" transform="translate(2418 2460)" fill="#6e6e6e" font-size="32" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="32">;</tspan></text>
+      <text id="height:" transform="translate(2448 2465)" fill="#6e6e6e" font-size="32" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="32">height:</tspan></text>
+      <text id="_px" data-name="#px" transform="translate(2364 2470)" fill="#aeaeae" font-size="26" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="26">#px</tspan></text>
+      <text id="_px-2" data-name="#px" transform="translate(2557 2470)" fill="#aeaeae" font-size="26" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="26">#px</tspan></text>
+      <text id="_2" data-name=";" transform="translate(2614 2460)" fill="#6e6e6e" font-size="32" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="32">;</tspan></text>
+    </g>
+  </g>
+</svg>

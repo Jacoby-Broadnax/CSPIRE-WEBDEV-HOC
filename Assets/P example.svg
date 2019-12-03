@@ -5,7 +5,6 @@
     </clipPath>
   </defs>
   <g id="P_example" data-name="P example" clip-path="url(#clip-P_example)">
-    <rect width="714" height="43" fill="#fff"/>
     <g id="Group_1" data-name="Group 1" transform="translate(-1253 339)">
       <text id="_p_p_" data-name="&lt;p&gt;                                                    &lt;/p&gt; " transform="translate(1253 -341)" fill="#6e6e6e" font-size="32" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="61.416" y="32" xml:space="preserve">&lt;p&gt;                                                    &lt;/p&gt; </tspan></text>
       <text id="THIS_IS_WHERE_YOUR_TEXT_SHOULD_BE" data-name="THIS IS WHERE YOUR TEXT SHOULD BE" transform="translate(1366 -333)" fill="#888" font-size="23" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="20.421" y="23">THIS IS WHERE YOUR TEXT SHOULD BE</tspan></text>

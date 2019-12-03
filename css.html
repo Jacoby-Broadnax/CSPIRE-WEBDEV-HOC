@@ -1,60 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Web Development | Hour Of Code</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="vivify.min.css">
-        <link rel="shortcut icon" href="Branding/favicon.png">
-    </head>
-    <body>
-        <nav>
-           <a href="" class="buttons left"><button></button></a>
-           <div class="logo-container">
-               <img src="branding/WEBDEV.svg">
-           </div>
-           <a href="index.html" class="buttons right"><button>SWITCH TO <strong style="color: black;">HTML</strong></button></a>
-        </nav>
 
-        <div class="viewer" id="html">
-            <div class="view-container">
-                <div class="item-container" id="heading">
+<head>
+    <title>Web Development | Hour Of Code</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="vivify.min.css">
+    <link rel="shortcut icon" href="Branding/favicon.png">
+</head>
+
+<body>
+    <nav>
+        <a href="" class="buttons left"><button></button></a>
+        <div class="logo-container">
+            <img src="branding/WEBDEV.svg">
+        </div>
+        <a href="index.html" class="buttons right"><button>SWITCH TO <strong
+                    style="color: black;">HTML</strong></button></a>
+    </nav>
+
+    <div class="viewer" id="html">
+        <div class="view-container">
+            <div class="item-container" style="padding-top:0px; ;" id="heading">
                 <h5 class="vivify fadeIn">CSS</h5>
-                <h1 style="margin-left: -40px;;" class="vivify fadeIn delay-100">TEXTCOLOR</h1>
-                <img class="vivify fadeIn delay-200" ondrag="dragged()" src="Assets/H1 example.svg">         
+                <h1 style="" class="vivify fadeIn delay-100">SIZING</h1>
+                <img class="vivify fadeIn delay-200" ondrag="dragged()" src="Assets/widthheight.svg">
             </div>
             <div class="item-container cover" style="width: 800px;" id="paragraph">
                 <h5 class="vivify fadeIn">CSS</h5>
-               
-                <h1 class="vivify fadeIn delay-100">BACKGROUND COLOR</h1>
-                <img class="vivify fadeIn delay-200" style="margin-left: 60px;;" ondrag="dragged()" src="assets/P example.svg">         
+
+                <h1 class="vivify fadeIn delay-100" style="font-size: 100px;">BACKGROUND COLOR</h1>
+                <img class="vivify fadeIn delay-200" style="margin-left: 60px;;" ondrag="dragged()"
+                    src="assets/background.svg">
             </div>
             <div class="item-container cover " id="image">
                 <h5 class="vivify fadeIn">CSS</h5>
-                <h1 class="vivify fadeIn delay-100">IMAGE</h1>
-                <img class="vivify fadeIn delay-200" ondrag="dragged()" src="assets/img example.svg">         
+                <h1 class="vivify fadeIn delay-100" style="font-size: 120px;">TEXT COLOR</h1>
+                <img class="vivify fadeIn delay-200" ondr ag="dragged()" src="assets/color.svg">
             </div>
-            <div class="item-container cover " id="links">
-                <h5 class="vivify fadeIn">CSS</h5>
-                <h1 class="vivify fadeIn delay-100">LINKS</h1>
-                <img class="vivify fadeIn delay-200" ondrag="dragged()" src="assets/a example.png">         
-            </div>
-            </div>
-            <h3 class="warning vivify popOut delay-5000">Lol, no copying poopy head ;) </h3>
-            <div class="bottom-nav-wrapper">
+          
+        </div>
+        <h3 class="warning vivify popOut delay-5000">Lol, no copying poopy head ;) </h3>
+        <div class="bottom-nav-wrapper">
             <div class="bottom-navigation">
-                <a href="#"><button class="vivify fadeIn delay-300" autofocus>Heading</button></a>
-                <a href="#paragraph"><button class="vivify fadeIn delay-400">Paragraph</button></a>
-                <a href="#image"><button class="vivify fadeIn delay-500">Images</button></a>
-                <a href="#links"><button class="vivify fadeIn delay-600">Links</button></a>
+                <a href="#"><button class="vivify fadeIn delay-300" autofocus>Sizing</button></a>
+                <a href="#paragraph"><button class="vivify fadeIn delay-400">Background Color</button></a>
+                <a href="#image"><button class="vivify fadeIn delay-500">Text Color</button></a>
+               
             </div>
         </div>
-        </div>
+    </div>
 
-        <script>
-        function dragged(){
-document.getElementsByClassName("warning")[0].style.display="block"
+    <script>
+        function dragged() {
+            document.getElementsByClassName("warning")[0].style.display = "block"
         }
-        </script>
-    
-    </body>
+    </script>
+
+</body>
+
 </html>

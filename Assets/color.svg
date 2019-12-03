@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="714" height="43" viewBox="0 0 714 43">
+  <defs>
+    <clipPath id="clip-color">
+      <rect width="714" height="43"/>
+    </clipPath>
+  </defs>
+  <g id="color" clip-path="url(#clip-color)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-539 -2465)">
+      <text id="color:" transform="translate(744 2462)" fill="#6e6e6e" font-size="36" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="36">color:</tspan></text>
+      <text id="Your_Color_" data-name="Your Color;" transform="translate(852 2468)" fill="#aeaeae" font-size="31" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="31">Your Color;</tspan></text>
+    </g>
+  </g>
+</svg>

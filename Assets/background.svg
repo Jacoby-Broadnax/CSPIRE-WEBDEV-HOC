@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="714" height="43" viewBox="0 0 714 43">
+  <defs>
+    <clipPath id="clip-background">
+      <rect width="714" height="43"/>
+    </clipPath>
+  </defs>
+  <g id="background" clip-path="url(#clip-background)">
+    <g id="Group_3" data-name="Group 3" transform="translate(-1323 -2465)">
+      <text id="background-color:" transform="translate(1459 2463)" fill="#6e6e6e" font-size="32" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="32">background-color:</tspan></text>
+      <text id="Your_Color" data-name="Your Color" transform="translate(1750 2468)" fill="#aeaeae" font-size="26" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="26">Your Color</tspan></text>
+      <text id="_" data-name=";" transform="translate(1886 2460)" fill="#6e6e6e" font-size="32" font-family="Quicksand-Bold, Quicksand" font-weight="700"><tspan x="0" y="32">;</tspan></text>
+    </g>
+  </g>
+</svg>
